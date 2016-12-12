@@ -1,0 +1,26 @@
+{
+  "features": [
+    { "id": 1, "applicationId": 1, "name": "new-header" },
+    { "id": 2, "applicationId": 1, "name": "fast-loading" }
+  ],
+  "applications": [
+    { "id": 1, "name": "investor" }
+  ],
+  "groups": [
+    { "id": 1, "name": "Beta Users" },
+    { "id": 2, "name": "VIPs" }
+  ],
+  "users": [
+    { "id": 1, "username": "robert.herbst" },
+    { "id": 2, "username": "irfaan.imamdin" }
+  ],
+  "feature-groups": [
+    { "id": 1, "featureId": 1, "groupId": 1, "isEnabled": true },
+    { "id": 2, "featureId": 2, "groupId": 1, "isEnabled": false },
+    { "id": 3, "featureId": 2, "groupId": 2, "isEnabled": true }
+  ],
+  "user-groups": [
+    { "userId": 1, "groupId": 1 },
+    { "userId": 2, "groupId": 2 }
+  ]
+}

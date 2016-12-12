@@ -1,0 +1,14 @@
+{
+  "name": "feature-toggle-server",
+  "version": "1.0.0",
+  "description": "Mock API server for feature toggle ui",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "Robert Herbst <robert.herbst@allangray.co.za>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.9.4"
+  }
+}
