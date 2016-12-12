@@ -1,0 +1,53 @@
+dist/
+node_modules/
+coverage/
+npm-debug.log
+eslint.xml
+results.tap
+newrelic_agent.log
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Tern Server Files
+.tern-port
+
+# Sublime text
+*.sublime-workspace
+*.sublime-project
+
+# Docker deploy
+client/.build/data
+bff/.build/data
+docker-compose.override.yml
+
+# zipped bundles
+*.tgz
+
+# directory environment
+.envrc
+
+# Docker-compose
+docker-compose.override.yml
+
+#intellij
+.idea
+
+# Visual Studio Code debugger configuration
+*.vscode
