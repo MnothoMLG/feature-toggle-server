@@ -11,3 +11,6 @@ To start the server run the following command:
 ```sh
 npm start
 ```
+
+# Interacting with the Server
+The server supports filtering and finding by ID. To find out more about the features read the [project README](https://github.com/typicode/json-server/blob/master/README.md#filter).
